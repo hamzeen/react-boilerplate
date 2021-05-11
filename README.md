@@ -17,7 +17,8 @@ npm start
 echo "Hello World" > index.html && open index.html
 ```
 * simple node server: 
-```npx http-server -a 0.0.0.0 -p 8000```
+```sh
+npx http-server -a 0.0.0.0 -p 8000```
 
 * python: ```python -m SimpleHTTPServer 8000```
 * npm dev dependency: ```npm install --save-dev {package@ver}```
