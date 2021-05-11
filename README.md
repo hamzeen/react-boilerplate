@@ -29,6 +29,13 @@ curl -X POST 'http://localhost:8080/api/logs'
 curl -I 'http://localhost:8080/api/logs'
 ```
 
+### SCM
+* remove all local changes:
+```sh
+git reset --hard HEAD
+git add .
+git commit -m "messsage"
+```
 ### REFERENCE: 
 * JWT: 
 * https://www.youtube.com/watch?v=eofpZPRUnP8
