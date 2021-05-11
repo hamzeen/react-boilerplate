@@ -18,7 +18,8 @@ echo "Hello World" > index.html && open index.html
 ```
 * simple node server: 
 ```sh
-npx http-server -a 0.0.0.0 -p 8000```
+npx http-server -a 0.0.0.0 -p 8000
+```
 
 * python: ```python -m SimpleHTTPServer 8000```
 * npm dev dependency: ```npm install --save-dev {package@ver}```
