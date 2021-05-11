@@ -33,6 +33,7 @@ curl -I 'http://localhost:8080/api/logs'
 * remove all local changes:
 ```sh
 git reset --hard HEAD
+# work ...
 git add .
 git commit -m "messsage"
 ```
