@@ -12,6 +12,7 @@ npm start
 ```
 
 ### Extras
+* file system (create with content): ```echo "Hello World" > labs.html && open labs.html```
 * simple node server:
 * python: ```python -m SimpleHTTPServer 8000```
 * npm dev dependency: ```npm install --save-dev {package@ver}```
