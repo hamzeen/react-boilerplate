@@ -13,7 +13,9 @@ npm start
 
 ### Extras
 * file system (create with content): 
-```echo "Hello World" > index.html && open index.html```
+```sh
+echo "Hello World" > index.html && open index.html
+```
 * simple node server: 
 ```npx http-server -a 0.0.0.0 -p 8000```
 
