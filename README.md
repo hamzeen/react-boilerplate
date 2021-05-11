@@ -13,8 +13,8 @@ npm start
 
 ### Extras
 * simple node server:
-* python:
-* npm. dev dependency: ```npm install --save-dev {package@ver}```
+* python: ```python -m SimpleHTTPServer 8000```
+* npm dev dependency: ```npm install --save-dev {package@ver}```
 * CURL:
 ```sh
 curl -X POST 'http://localhost:8080/api/logs'
