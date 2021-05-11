@@ -11,6 +11,11 @@ echo "SKIP_PREFLIGHT_CHECK=true" > .env && open .env
 npm start
 ```
 
+### JWT
+* has 3 parts: header, body & signature
+* debug: jwt.io
+
+
 ### Extras
 * file system (create with content): 
 ```sh
