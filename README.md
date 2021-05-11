@@ -1,6 +1,6 @@
 # react-boilerplate
 
-### Init scaffold
+### scaffold
 
 ```
 npx create-react-app react-boilerplate
@@ -37,5 +37,5 @@ git add .
 git commit -m "messsage"
 ```
 ### REFERENCE: 
-* JWT: 
+* JWT: https://medium.com/@amcdnl/authentication-in-angular-jwt-c1067495c5e0
 * https://www.youtube.com/watch?v=eofpZPRUnP8
