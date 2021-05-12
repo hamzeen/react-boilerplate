@@ -15,6 +15,9 @@ npm start
 * has 3 parts: header, body & signature
 * debug: jwt.io
 
+### Typescript
+* can be converted to TSX: <https://medium.com/@amcdnl/react-typescript-%EF%B8%8F-647aa7d054a9>
+
 
 ### Extras
 * file system (create with content): 
