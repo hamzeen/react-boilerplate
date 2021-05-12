@@ -1,5 +1,8 @@
 # react-boilerplate
 
+### JSX
+JSX is an XML-like syntax extension to ECMAScript without any defined semantics.
+
 ### scaffold
 
 ```
