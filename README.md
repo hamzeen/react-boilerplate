@@ -12,7 +12,7 @@ npm start
 ```
 
 ### Router
-```
+```sh
 npm install --save react-router-dom
 ```
 
