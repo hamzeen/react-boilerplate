@@ -11,6 +11,11 @@ echo "SKIP_PREFLIGHT_CHECK=true" > .env && open .env
 npm start
 ```
 
+### Router
+```
+npm install --save react-router-dom
+```
+
 ### JWT
 * has 3 parts: header, payload & signature
 * debug: jwt.io
