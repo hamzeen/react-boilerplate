@@ -1,5 +1,10 @@
 # react-boilerplate
 
+
+### Cretae React App CRA:
+create-react-app is the official CLI (Command Line Interface) for React to create React apps with no build configuration.
+
+
 ### JSX
 JSX is an XML-like syntax extension to ECMAScript without any defined semantics.
 
