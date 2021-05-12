@@ -11,7 +11,7 @@ echo "SKIP_PREFLIGHT_CHECK=true" > .env && open .env
 npm start
 ```
 
-### Cretae React App CRA:
+### Create React App CRA:
 create-react-app is the official CLI (Command Line Interface) for React to create React apps with no build configuration.
 
 ### React vs React Native
