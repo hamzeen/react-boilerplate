@@ -4,6 +4,8 @@
 ### Cretae React App CRA:
 create-react-app is the official CLI (Command Line Interface) for React to create React apps with no build configuration.
 
+### React vs React Native
+In Reactjs, virtual DOM is used to render browser code in Reactjs while in React Native, native APIs are used to render components in mobile.
 
 ### JSX
 JSX is an XML-like syntax extension to ECMAScript without any defined semantics.
