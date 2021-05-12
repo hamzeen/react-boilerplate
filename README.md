@@ -19,6 +19,16 @@ npm start
 * can be converted to TSX: <https://medium.com/@amcdnl/react-typescript-%EF%B8%8F-647aa7d054a9>
 * not available out of the box through CRA (Create React App)
 
+### JSON Obj: translation
+```
+const monthNames = {
+  '1': 'Januari', '2': 'Februari', '3': 'March',
+  '4': 'April', '5': 'Mei', '6': 'Juni',
+  '7': 'Juli', '8': 'Augustus', '9': 'September',
+  '10': 'Oktober', '11': 'Novemebr', '12': 'December'
+}
+const monthName = `month translation: ${monthNames[date.getMonth() + 1]}`;
+```
 
 ### Extras
 * file system (create with content): 
