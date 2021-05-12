@@ -54,6 +54,18 @@ console.log(newFormat):
 
 
 ### Extras
+```css
+// medi query
+@media (max-width: 1075px) {
+  .container {
+    margin: 40px;
+  }
+}
+
+@media (max-width: 520px) {
+  .container { margin: 40px 2px;}
+}
+```
 * file system (create with content): 
 ```sh
 echo "Hello World" > index.html && open index.html
