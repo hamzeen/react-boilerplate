@@ -25,7 +25,9 @@ npm install --save react-router-dom
 * can be converted to TSX: <https://medium.com/@amcdnl/react-typescript-%EF%B8%8F-647aa7d054a9>
 * not available out of the box through CRA (Create React App)
 
-### JSON Obj: translation
+### JS Utils
+
+JSON Obj: translation
 ```
 const monthNames = {
   '1': 'Januari', '2': 'Februari', '3': 'March',
@@ -34,6 +36,13 @@ const monthNames = {
   '10': 'Oktober', '11': 'Novemebr', '12': 'December'
 }
 const monthName = `month translation: ${monthNames[date.getMonth() + 1]}`;
+```
+
+palindrome
+```
+  const isPalindrome = (str) => 
+    str.toLowerCase().split('').reverse().join('') === str.toLowerCase();
+  console.log(isPalindrome('lEveL'));
 ```
 
 ### Extras
