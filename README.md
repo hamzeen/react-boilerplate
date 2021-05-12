@@ -55,7 +55,7 @@ console.log(newFormat):
 
 ### Extras
 ```css
-// medi query
+// media query
 @media (max-width: 1075px) {
   .container {
     margin: 40px;
