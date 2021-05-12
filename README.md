@@ -12,8 +12,9 @@ npm start
 ```
 
 ### JWT
-* has 3 parts: header, body & signature
+* has 3 parts: header, payload & signature
 * debug: jwt.io
+* <https://gist.github.com/hamzeen/824761ffe3c605fa3c7ee270d871dc51>
 
 ### Typescript
 * can be converted to TSX: <https://medium.com/@amcdnl/react-typescript-%EF%B8%8F-647aa7d054a9>
@@ -59,4 +60,5 @@ git commit -m "messsage"
 ### REFERENCE: 
 * JWT: https://medium.com/@amcdnl/authentication-in-angular-jwt-c1067495c5e0
 * UTIL: https://gist.github.com/hamzeen/52312f77aaa51bedbde7a48598c281d6
+* UTIl 2: https://gist.github.com/hamzeen/e4516f7b580c6858c4136f688508014a
 * https://www.youtube.com/watch?v=eofpZPRUnP8
