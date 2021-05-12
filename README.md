@@ -42,7 +42,7 @@ palindrome
 ```
   const isPalindrome = (str) => 
     str.toLowerCase().split('').reverse().join('') === str.toLowerCase();
-  console.log(isPalindrome('ra'));
+  console.log(isPalindrome('rAceCar'));
 ```
 
 ### Extras
