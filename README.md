@@ -3,6 +3,10 @@
 ### JSX
 JSX is an XML-like syntax extension to ECMAScript without any defined semantics.
 
+### PROS vs STATE
+The state is a data structure that starts with a default value when a Component mounts. It may be mutated across time, mostly as a result of user events.
+Props (short for properties) are a Component’s configuration. Props are how components talk to each other. They are received from above component and immutable as far as the Component receiving them is concerned.
+
 ### scaffold
 
 ```
