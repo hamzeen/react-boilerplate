@@ -1,7 +1,6 @@
 # react-boilerplate
 
-### PROMISES in the Wild: <https://davidwalsh.name/promises>
-
+x
 ### Cretae React App CRA:
 create-react-app is the official CLI (Command Line Interface) for React to create React apps with no build configuration.
 
@@ -107,7 +106,9 @@ git reset --hard HEAD
 git add .
 git commit -m "messsage"
 ```
+
 ### REFERENCE: 
+* Promises in the wild: https://davidwalsh.name/promises
 * JWT: https://medium.com/@amcdnl/authentication-in-angular-jwt-c1067495c5e0
 * UTIL: https://gist.github.com/hamzeen/52312f77aaa51bedbde7a48598c281d6
 * UTIl 2: https://gist.github.com/hamzeen/e4516f7b580c6858c4136f688508014a
