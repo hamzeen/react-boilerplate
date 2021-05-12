@@ -17,6 +17,7 @@ npm start
 
 ### Typescript
 * can be converted to TSX: <https://medium.com/@amcdnl/react-typescript-%EF%B8%8F-647aa7d054a9>
+* not available out of the box through CRA (Create React App)
 
 
 ### Extras
