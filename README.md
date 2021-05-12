@@ -1,5 +1,6 @@
 # react-boilerplate
 
+### PROMISES in the Wild: <https://davidwalsh.name/promises>
 
 ### Cretae React App CRA:
 create-react-app is the official CLI (Command Line Interface) for React to create React apps with no build configuration.
