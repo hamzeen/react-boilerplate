@@ -1,5 +1,15 @@
 # react-boilerplate
 
+### scaffold
+
+```sh
+npx create-react-app react-boilerplate
+cd react-boilerplate && npm install
+```
+```sh
+echo "SKIP_PREFLIGHT_CHECK=true" > .env && open .env
+npm start
+```
 
 ### Cretae React App CRA:
 create-react-app is the official CLI (Command Line Interface) for React to create React apps with no build configuration.
@@ -14,16 +24,6 @@ JSX is an XML-like syntax extension to ECMAScript without any defined semantics.
 The state is a data structure that starts with a default value when a Component mounts. It may be mutated across time, mostly as a result of user events.
 Props (short for properties) are a Component’s configuration. Props are how components talk to each other. They are received from above component and immutable as far as the Component receiving them is concerned.
 
-### scaffold
-
-```sh
-npx create-react-app react-boilerplate
-cd react-boilerplate && npm install
-```
-```sh
-echo "SKIP_PREFLIGHT_CHECK=true" > .env && open .env
-npm start
-```
 
 ### Router
 ```sh
