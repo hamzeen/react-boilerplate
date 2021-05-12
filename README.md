@@ -16,11 +16,11 @@ Props (short for properties) are a Component’s configuration. Props are how co
 
 ### scaffold
 
-```
+```sh
 npx create-react-app react-boilerplate
 cd react-boilerplate && npm install
 ```
-```
+```sh
 echo "SKIP_PREFLIGHT_CHECK=true" > .env && open .env
 npm start
 ```
