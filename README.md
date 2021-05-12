@@ -48,4 +48,5 @@ git commit -m "messsage"
 ```
 ### REFERENCE: 
 * JWT: https://medium.com/@amcdnl/authentication-in-angular-jwt-c1067495c5e0
+* UTIL: https://gist.github.com/hamzeen/52312f77aaa51bedbde7a48598c281d6
 * https://www.youtube.com/watch?v=eofpZPRUnP8
