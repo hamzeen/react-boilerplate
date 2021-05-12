@@ -5,7 +5,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Home from './app/Home';
+import Home from './app/components/Home';
 
 // This site has 3 pages, all of which are rendered
 // dynamically in the browser (not server rendered).
