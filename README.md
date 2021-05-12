@@ -27,7 +27,7 @@ npm install --save react-router-dom
 
 ### JS Utils
 
-```
+```js
 # translation from keys
 const monthNames = {
   '1': 'Januari', '2': 'Februari', '3': 'March',
@@ -38,7 +38,7 @@ const monthNames = {
 const monthName = `month translation: ${monthNames[date.getMonth() + 1]}`;
 ```
 
-```
+```javascript
 # palindrome
 const isPalindrome = (str) => 
     str.toLowerCase().split('').reverse().join('') === str.toLowerCase();
