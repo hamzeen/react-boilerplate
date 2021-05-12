@@ -65,6 +65,9 @@ console.log(newFormat):
 @media (max-width: 520px) {
   .container { margin: 40px 2px;}
 }
+
+// mixins: Mixins allow you to define styles that can be re-used throughout your stylesheet.
+
 ```
 * file system (create with content): 
 ```sh
