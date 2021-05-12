@@ -44,6 +44,14 @@ const isPalindrome = (str) =>
     str.toLowerCase().split('').reverse().join('') === str.toLowerCase();
 console.log(isPalindrome('rAceCar'));
 ```
+```javascript
+// date fromat dd-mm-yyyy
+const now = new Date();
+const date = now.toISOString().split('T')[0];
+const newFormat = date.split('-').reverse().join('-');
+console.log(newFormat):
+```
+
 
 ### Extras
 * file system (create with content): 
