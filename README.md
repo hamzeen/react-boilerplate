@@ -53,6 +53,21 @@ const monthName = `month translation: ${monthNames[date.getMonth() + 1]}`;
 ```
 
 ```javascript
+function sortByPriceAscending(jsonString) {
+  const ary = JSON.parse(jsonString);
+  return ary.sort(function(left, right) {
+    return left.price - right.price;
+  });
+}
+
+console.log(sortByPriceAscending('[
+  {"name":"tea","price":1},
+  {"name":"tomato","price":9.89},
+  {"name":"sugar","price":4.04}
+]'));
+```
+
+```javascript
 // palindrome
 const isPalindrome = (str) => 
     str.toLowerCase().split('').reverse().join('') === str.toLowerCase();
