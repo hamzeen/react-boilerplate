@@ -98,8 +98,9 @@ console.log(newFormat):
 // mixins: Mixins allow you to define styles that can be re-used throughout your stylesheet.
 
 ```
-* file system (create with content): 
+
 ```sh
+# file system (create with content):
 echo "Hello World" > index.html && open index.html
 ```
 * simple node server: 
