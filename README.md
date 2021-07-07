@@ -11,6 +11,31 @@ echo "SKIP_PREFLIGHT_CHECK=true" > .env && open .env
 npm start
 ```
 
+## FUnctiona vs COmpo
+unctional components are some of the more common components that will come across while working in React. These are simply JavaScript functions. We can create a functional component to React by writing a JavaScript function.
+```js
+import React ,{useState} from "react";
+ 
+const FunctionalComponent=()=>{
+    const[count , setCount]=useState(0);
+ 
+    const increase=()=>{
+        setCount(count+1);
+    }
+ 
+    return (
+        <div style={{margin:'50px'}}>
+            <h1>Welcome to Geeks for Geeks </h1>
+            <h3>Counter App using Functional Componenet : </h3>
+            <h2>{count}</h2>
+            <button onClick={increase}>Add</button>
+        </div>
+    )
+}
+ 
+export default FunctionalComponent;
+```
+
 ### Create React App CRA:
 create-react-app is the official CLI (Command Line Interface) for React to create React apps with no build configuration.
 
